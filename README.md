@@ -6,3 +6,6 @@ After this we noticed the can bus load was fluctuating from 35% to 70% in fracti
 This is the code before the offending BallMovementSubsystem was removed. I've messaged Max, the guy who made the changes to get it working, to have him commit the code with the changes he made. From what he said it sounded like he believed the "periodic()" method was causing a delay that meant the malfunctioning motor controller wasn't getting commands when it expected to. I'm not as familiar as he is with the system, as it is left over from last year's code which I did not work on.
 
 ![Can Bus Load](/20220124_205635.jpg)
+
+
+Update - max commited the updated code and I've added it here
